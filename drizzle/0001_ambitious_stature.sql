@@ -1,0 +1,1 @@
+ALTER TABLE `products` ADD `description` text(255) NOT NULL;
