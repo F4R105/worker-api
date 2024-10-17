@@ -7,6 +7,7 @@ compatibility_flags = [ "nodejs_compat" ]
 binding = "DB" # i.e. available in your Worker on env.DB
 database_name = "api-db-kv-bucket-d1"
 database_id = "a4026f26-30d5-4ff0-9675-73851b120705"
+migrations_dir = "./drizzle"
 
 # [vars]
 # MY_VAR = "my-variable"
